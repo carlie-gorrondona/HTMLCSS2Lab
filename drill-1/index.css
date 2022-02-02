@@ -1,0 +1,39 @@
+#topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(94, 92, 92);
+    width: 100%;
+    height: 150px;
+    z-index: 2;
+}
+
+#leftsidebar {
+    position: fixed;
+    left: 0;
+    top: 10;
+    background-color: lightgray;
+    width: 150px;
+    height: 100%;
+    z-index: 1;
+}
+
+#rightsidebar {
+    position: fixed;
+    right: 0;
+    background-color: lightgray;
+    width: 150px;
+    height: 100%;
+    z-index: 1;
+}
+
+#bottommiddlebar {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+}
+

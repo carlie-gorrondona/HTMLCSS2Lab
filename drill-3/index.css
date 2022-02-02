@@ -1,0 +1,73 @@
+.wrapper {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+  }
+
+.div1 {
+    background-color: lightgray;
+    height: 100px;
+    width: 100%;
+}
+
+.span1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(73, 153, 202);
+    height: 60px;
+    width: 60px;
+
+}
+
+.div2 {
+    background-color: white;
+    box-sizing: content-box;
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    font-size: 17pt;
+}
+
+.div3 {
+    background-color: rgb(73, 153, 202);
+    height: 150px;
+    width: 100%;
+
+}
+
+.div4 {
+    background-color: aqua;
+    height: 150px;
+    width: 100%;
+
+}
+
+.div5 {
+    background-color: rgb(182, 252, 78);
+    height: 150px;
+    width: 100%;
+
+}
+
+.div6 {
+    background-color: yellow;
+    height: 150px;
+    width: 100%;
+
+}
+
+.div7 {
+    position: relative;
+    left: 1330px;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 90px 20px 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25pt;
+
+
+}
